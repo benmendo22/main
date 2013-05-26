@@ -12,6 +12,7 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -26,16 +27,16 @@
                 <a id="logo" href="#" title=""><img src="pura_vida.png" alt="logo"></a>
                 <nav class="left">
                     <ul>
-                        <li><a href="#">nav ul li a</a></li>
-                        <li><a href="#">nav ul li a</a></li>
-                        <li><a href="#">nav ul li a</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">menu</a></li>
+                        <li><a href="#">location</a></li>
                     </ul>
                 </nav>
                 <nav class="right">
                     <ul>
-                        <li><a href="#">nav ul li a</a></li>
-                        <li><a href="#">nav ul li a</a></li>
-                        <li><a href="#">nav ul li a</a></li>
+                        <li><a href="#">arte</a></li>
+                        <li><a href="#">galeria</a></li>
+                        <li><a href="#">contact</a></li>
                     </ul>
                 </nav>
             </header>

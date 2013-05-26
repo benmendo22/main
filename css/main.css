@@ -102,6 +102,8 @@ nav ul {
 }
 
 nav a {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 1.6em;
     display: block;
     margin-bottom: 10px;
     padding: 15px 0;
@@ -111,7 +113,7 @@ nav a {
     font-weight: bold;
 
     color: black;
-    background: rgb(127,47,39);
+    /*background: rgb(127,47,39);*/
 }
 
 nav a:hover,
@@ -132,7 +134,8 @@ nav a:hover {
 }
 
 .main article h1 {
-    font-size: 2em;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 3em;
 }
 
 .main aside {
@@ -192,7 +195,7 @@ a#logo, a#logo img {
         float: left;
         width: 27%;
         margin: 0 1.7%;
-        padding: 25px 2%;
+        padding: 15px 2% 25px;
         margin-bottom: 0;
     }
 
@@ -247,10 +250,10 @@ a#logo, a#logo img {
         margin-top: -55px;
     }
     nav.left {
-        float: right;
+        float: left;
     }
     nav.right {
-        float: left;
+        float: right;
     }
 
 /* ============
