@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link href='http://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="js/flexslider.css" type="text/css" media="screen" />
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -42,7 +43,22 @@
             </header>
         </div>
 
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                  <img src="img/carne.jpg" />
+                </li>
+                <li>
+                  <img src="img/ceviche.jpg" />
+                </li>
+                <li>
+                  <img src="img/empanada.jpg" />
+                </li>
+            </ul>
+        </div>
+
         <div class="main-container">
+            
             <div class="main wrapper clearfix">
 
                 <article>
@@ -83,6 +99,14 @@
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+  
+        <script type="text/javascript">
+          
+          $('.flexslider').flexslider({
+            animation: "slide"
+          });
+        </script>
 
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
